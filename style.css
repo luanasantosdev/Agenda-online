@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient( to top, #8A21E5, #6721e5) ;
+    
+}
+.container {
+  
+    width: 688px;
+    /* background-color: white; */
+    height: 600px;
+}
+.card {
+   
+    display: flex;
+   flex-direction: column; 
+   align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+
+}
+.container .card  > img{
+    width: 160px;
+    border-radius: 50%;
+    border: 10px solid #e38cb6;
+}
+
+.card > p{
+    margin: 20px;
+     font-family: "Montserrat", serif;
+     font-weight: bold;
+     color: ;
+}
+
+.card > h1 {
+    font-family: "Karla", serif;
+}
+
+.input-text {
+    width: 500px;
+    border-radius: 20px;
+    height: 50px;
+    font-size:20px ;
+    margin: 10px;
+    padding: 20px;
+}
+
+@media screen and (max-width:500px) {
+   .input-text {
+    width: 400px;
+   }
+}
